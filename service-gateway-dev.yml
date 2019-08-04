@@ -28,5 +28,6 @@ logging:
   level:
     org.springframework.cloud.gateway: debug
 
-
+rabbitmq:
+	host: 192.168.1.141
 
