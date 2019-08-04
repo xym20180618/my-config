@@ -12,9 +12,8 @@ eureka:
 
 spring:
   application:
-    name: eurka-server
-    
-rabbitmq:
-	host: 192.168.1.141
+    name: eurka-server 
+  rabbitmq:
+    host: 192.168.1.141
 sms: #自己定义数据
   ip: 127.0.0.1
