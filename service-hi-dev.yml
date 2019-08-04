@@ -10,5 +10,8 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
       
- rabbitmq:
+rabbitmq:
 	host: 192.168.1.141
+
+sms: #自己定义数据
+  ip: 127.0.0.1
