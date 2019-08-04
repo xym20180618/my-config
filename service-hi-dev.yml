@@ -12,9 +12,8 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
   instance:
-    preferIpAddress：
-      ip: true
-  instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+    preferIpAddress: true
+    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
       
 sms: #自己定义数据
   ip: 127.0.0.1
