@@ -35,3 +35,12 @@ logging:
     
 sms: #自己定义数据
   ip: 127.0.0.1
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
